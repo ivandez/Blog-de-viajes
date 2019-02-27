@@ -1,0 +1,28 @@
+html{
+	box-sizing: border-box; /* repasar esta clase*/
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+} 
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+
+	font-family: /*agregar una fuente bonita de google*/
+}
+
+header{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+div.contenedor{
+	width: 1200px;
+	margin: 0 auto;
+}
+/* agregar el normalize.css*/
