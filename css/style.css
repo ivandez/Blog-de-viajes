@@ -25,4 +25,24 @@ div.contenedor{
 	width: 1200px;
 	margin: 0 auto;
 }
+
+div.navegacion{
+	background-color: pink;
+}
+nav{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+nav ul{
+	list-style: none;
+}
+nav >ul >li{
+	float: left;
+}
+nav ul: : after{
+	content: '';
+	display: block;
+	clear: both;
+}
 /* agregar el normalize.css*/
