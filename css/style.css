@@ -92,6 +92,11 @@ article{
 h2{
 	color: #59c6c5; /*00b8e4*/
 }
+article:after{
+	content: '';
+	display: block;
+	clear: both;
+}
 article img{
 
 	float: left;
