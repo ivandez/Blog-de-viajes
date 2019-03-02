@@ -81,16 +81,13 @@ main{
 	float: left;
 	padding-right: 40px;
 }
-aside{
-	float: right;
-	width: 30%;
-}
 
 article{
 	margin-top: 30px;
 }
 h2{
 	color: #59c6c5; /*00b8e4*/
+
 }
 article:after{
 	content: '';
@@ -116,6 +113,35 @@ article p{
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bold;
+	color: white;
+}
+
+/*--SIDE BAR--*/
+aside{
+	float: right;
+	width: 30%;
+	margin-top: 30px;
+	padding-left: 30px;
+}
+aside ul{
+	list-style: none;
+}
+aside ul li{
+	padding: 10px 0px 10px 10px;
+}
+
+aside ul li:hover{
+	background: #59c6c5;
+	cursor: pointer;
+}
+
+aside ul li a{
+	color: #59c6c5;
+	text-decoration: none;
+
+}
+
+aside ul li:hover a{
 	color: white;
 }
 /* agregar el normalize.css*/
